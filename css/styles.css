@@ -1,0 +1,18 @@
+body {
+    width:90%;
+    max-width: 900px;
+    margin: 2em auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; /* a medida fr representa unha fracción de espacio*/
+}
+
+.grupo {
+    background-color: rgb(207,232,220);
+    border: 2px solid black;
+    margin: 5px;
+    padding: 25px;
+}
